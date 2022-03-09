@@ -76,7 +76,6 @@ table {
 body {
   margin: 0 auto;
   position: relative;
-  max-width: 128rem;
   min-width: 32rem;
 }
 
@@ -441,7 +440,7 @@ body {
 
 .main {
   padding-top: 13.9rem;
-  background: url("https://rolling-scopes-school.github.io/alexandrdrozdfd-JS2020Q3/shelter/assets/images/block_not_only/noise_transparent@2x.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  background: url("../../../../assets/images/block_not_only/noise_transparent@2x.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
 .main .not-only {
@@ -532,7 +531,6 @@ body {
 
 .main .about {
   background-color: var(--color-light-xl);
-  max-width: 128rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -614,7 +612,6 @@ body {
 
 .main .our-friends {
   background-color: var(--color-light-l);
-  max-width: 128rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -867,7 +864,6 @@ body {
 
 .main .help {
   background-color: var(--color-light-xl);
-  max-width: 128rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -957,7 +953,6 @@ body {
 
 .main .in-addition {
   background-color: var(--color-light-l);
-  max-width: 128rem;
   padding-top: 8.3rem;
   padding-bottom: 10rem;
 }
@@ -1727,8 +1722,7 @@ body {
 }
 
 .footer {
-  max-width: 128rem;
-  background: url("https://rolling-scopes-school.github.io/alexandrdrozdfd-JS2020Q3/shelter/assets/images/block_not_only/noise_transparent@2x.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  background: url("../../../../assets/images/block_not_only/noise_transparent@2x.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
 .footer__inner {
