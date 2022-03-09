@@ -1,6 +1,6 @@
 .main {
   padding-top: 13.9rem;
-  background: url('https://rolling-scopes-school.github.io/alexandrdrozdfd-JS2020Q3/shelter/assets/images/block_not_only/noise_transparent@2x.png'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  background: url('../../../../assets/images/block_not_only/noise_transparent@2x.png'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
   .not-only {
     max-width: 120rem;
     margin: 0 auto;
@@ -58,7 +58,6 @@
   }
   .about {
     background-color: var(--color-light-xl);
-    max-width: 128rem;
     display: flex;
     &__inner {
       max-width: 120rem;
@@ -101,7 +100,6 @@
   }
   .our-friends {
     background-color: var(--color-light-l);
-    max-width: 128rem;
     @include df_column_c_c;
     &__inner {
       max-width: 120rem;
@@ -194,7 +192,6 @@
   }
   .help {
     background-color: var(--color-light-xl);
-    max-width: 128rem;
     @include df_column_c_c;
     padding: 8rem 0 4rem 0;
     &__inner {
@@ -232,7 +229,6 @@
   }
   .in-addition {
     background-color: var(--color-light-l);
-    max-width: 128rem;
     padding-top: 8.3rem;
     padding-bottom: 10rem;
     &__inner {
