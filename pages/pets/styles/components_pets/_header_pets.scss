@@ -1,0 +1,40 @@
+.header.header_pets {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  
+  .logo {
+    &__title a {
+      color: var(--color-dark-l);
+    }
+    &__subtitle {
+      color: var(--color-dark-3xl);
+    }
+  }
+  .menu {
+    .list {
+      &__item{
+        .active {
+          color: var(--color-dark-l);
+        }
+        .active:hover {
+          color: var(--color-dark-3xl);
+        }
+        &__link {
+        }
+        .disabled {
+          color: var(--color-dark-l);
+          &:hover {
+              color: var(--color-dark-3xl);
+          }
+        }
+      }
+    } 
+  }
+}
+@include max-media-header-pets-1279;
+@include max-media-header-767;

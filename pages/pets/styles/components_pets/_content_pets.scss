@@ -1,0 +1,66 @@
+.main.nobgc {
+  background: none;
+  padding: 0;
+  .our-friends {
+    padding-top: 0.2rem;
+    padding-bottom: 9.5rem;
+    &__inner {
+      padding-bottom: 0;
+      &__caption {
+
+      }
+      &__pets {
+        
+        .pets_cards {
+          margin: 0;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          &__card {
+            margin: 0;
+            margin-bottom: 2.9rem;
+            width: 27rem;
+          }
+        }
+      }
+    } 
+    .pagination {
+      margin-top: 3rem;
+      display: flex;
+      &__arrow_prev {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        @include df_row_c_c;
+        
+        .arrow_btn {
+          @include arrow-btn;
+          border-color: var(--color-dark-s);
+        }
+        @include arrow-btn-hover;
+      }
+      &__arrow_next {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        @include df_row_c_c;
+        .arrow_btn {
+          @include arrow-btn;
+        }
+        .arrow_btn.number {
+          background-color: var(--color-primary-color);
+          border-color:  var(--color-primary-color);
+          color: var(--color-dark-3xl);
+          font-size: 2rem;
+          font-family: Georgia;
+          font-style: normal;
+          font-weight: normal;
+        }
+        // .arrow_btn.number:active {
+        //   background-color: var(--color-primary-color);
+        //   border-color:  var(--color-primary-color);
+        // }
+        @include arrow-btn-hover;
+      }
+    }     
+  }
+}
+@include max-media-content-pets-1279;
+@include max-media-content-pets-767;

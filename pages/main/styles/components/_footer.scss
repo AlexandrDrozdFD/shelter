@@ -1,0 +1,98 @@
+.footer {
+  max-width: 128rem;
+  background: url('https://rolling-scopes-school.github.io/alexandrdrozdfd-JS2020Q3/shelter/assets/images/block_not_only/noise_transparent@2x.png'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+
+  &__inner {
+    padding-top: 5.7rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    @include df_row_c;
+    &__wrapper {
+      @include df_row_c;
+      &__contacts {
+        margin-right: 13.9rem;
+        @include df_column_fs_fs;
+        &__caption {
+          width: 30rem;
+          @include h3;
+          color: var(--color-light-xl);
+        }
+        &__email {
+          margin-top: 4rem;
+          @include df_row_c_c;
+          &__icon {
+            margin-right: 2rem;
+          }
+          &__text {
+  
+            a {
+              text-decoration: none;
+              @include h4;
+              color: var(--color-primary-color);
+            }
+          }
+        }
+        &__phone {
+          margin-top: 4.1rem;
+          @include df_row_c_c;
+          &__icon {
+            margin-right: 2rem;
+          }
+          &__text {
+            a {
+              text-decoration: none;
+              @include h4;
+              color: var(--color-primary-color);
+            }
+          }
+        }
+      }
+      &__addresses {
+        margin-right: 16rem;
+        @include df_column_fs_fs;
+        &__caption {
+          width: 30rem;
+          @include h3;
+          color: var(--color-light-xl);
+        }
+        &__address-1 {
+          width: 30.2rem;
+          margin-top: 3.3rem;
+          @include df_row_c_c;
+          &__icon {
+            margin-right: 2rem;
+          }
+          &__text {
+            .boston {
+              text-decoration: none;
+              @include h4;
+              color: var(--color-primary-color);
+            }
+          }
+        }
+        &__address-2 {
+          margin-top: 3.2rem;
+          @include df_row_c_c;
+          &__icon {
+            margin-right: 2rem;
+          }
+          &__text {
+            .london {
+              text-decoration: none;
+              @include h4;
+              color: var(--color-primary-color);
+            }
+          }
+        }
+      }
+    }
+    &__picture {
+      margin-top: -1.6rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@include max-media-footer-1279;
+@include max-media-footer-767;

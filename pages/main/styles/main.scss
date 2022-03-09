@@ -1,0 +1,11 @@
+@import './helpers/mixin';
+@import '../../pets/styles/helpers_pets/mixin_pets';
+@import './helpers/reset';
+@import './helpers/variables';
+@import './helpers/scaffolding';
+@import './components/header';
+@import '../../pets/styles/components_pets/header_pets';
+@import './components/content';
+@import '../../pets/styles/components_pets/content_pets';
+@import './components/footer';
+
